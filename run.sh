@@ -13,7 +13,6 @@ if [ ! -f "$EXECUTABLE_NAME" ]; then
 fi
 
 
-# Name of your executable (change this to match your actual target name)
 EXECUTABLE_NAME="GameEngine"
 
 GREEN='\033[0;32m'
