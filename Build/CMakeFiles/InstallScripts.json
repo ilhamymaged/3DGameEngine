@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/ilhamy/Programming/3DGameEngine/Build/cmake_install.cmake",
+		"/home/ilhamy/Programming/3DGameEngine/Build/Vendor/glfw/cmake_install.cmake",
+		"/home/ilhamy/Programming/3DGameEngine/Build/Vendor/glfw/src/cmake_install.cmake",
+		"/home/ilhamy/Programming/3DGameEngine/Build/Vendor/glfw/docs/cmake_install.cmake",
+		"/home/ilhamy/Programming/3DGameEngine/Build/Vendor/cglm/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

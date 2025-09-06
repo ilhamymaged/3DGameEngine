@@ -1,0 +1,519 @@
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:malloc
+   fun:FcPatternObjectInsertElt
+   fun:FcPatternObjectAddWithBinding
+   fun:UnknownInlinedFun
+   fun:FcFontSetList
+   fun:ensure_families
+   fun:pango_fc_font_map_get_family
+   fun:pango_fc_font_map_get_face
+   fun:UnknownInlinedFun
+   fun:UnknownInlinedFun
+   fun:pango_fc_fontset_get_font_at
+   fun:pango_fc_fontset_foreach
+   fun:UnknownInlinedFun
+   fun:pango_context_get_metrics
+   fun:UnknownInlinedFun
+   fun:UnknownInlinedFun
+   fun:UnknownInlinedFun
+   fun:gtk_label_measure.lto_priv.0
+   fun:gtk_css_custom_gadget_get_preferred_size
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:realloc
+   fun:FcPatternObjectInsertElt
+   fun:FcPatternObjectAddWithBinding
+   fun:_cairo_ft_font_options_substitute
+   fun:pango_cairo_fc_font_map_fontset_key_substitute
+   fun:UnknownInlinedFun
+   fun:UnknownInlinedFun
+   fun:pango_fc_font_map_load_fontset
+   fun:pango_context_get_metrics
+   fun:UnknownInlinedFun
+   fun:UnknownInlinedFun
+   fun:UnknownInlinedFun
+   fun:gtk_label_measure.lto_priv.0
+   fun:gtk_css_custom_gadget_get_preferred_size
+   fun:gtk_css_gadget_get_preferred_size
+   fun:gtk_label_get_preferred_width.lto_priv.0
+   fun:gtk_widget_query_size_for_orientation
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:realloc
+   fun:FcPatternObjectInsertElt
+   fun:FcPatternObjectListAdd.isra.0
+   fun:FcFontRenderPrepare
+   fun:FcFontSetMatch
+   fun:UnknownInlinedFun
+   fun:fc_thread_func
+   fun:g_thread_proxy
+   fun:start_thread
+   fun:clone
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:UnknownInlinedFun
+   fun:UnknownInlinedFun
+   fun:alloc
+   fun:UnknownInlinedFun
+   fun:allocate
+   fun:do_alloc<alloc::alloc::Global>
+   fun:new_uninitialized<alloc::alloc::Global>
+   fun:fallible_with_capacity<alloc::alloc::Global>
+   fun:prepare_resize<alloc::alloc::Global>
+   fun:resize_inner<alloc::alloc::Global>
+   fun:reserve_rehash_inner<alloc::alloc::Global>
+   fun:_ZN9hashbrown3raw21RawTable$LT$T$C$A$GT$14reserve_rehash17haf041162ac3a6b83E
+   fun:reserve<(&str, (fn(&rsvg::session::Session, &rsvg::xml::attributes::Attributes) -> rsvg::element::ElementData, rsvg::element::ElementCreateFlags)), alloc::alloc::Global, hashbrown::map::make_hasher::{closure_env#0}<&str, (fn(&rsvg::session::Session, &rsvg::xml::attributes::Attributes) -> rsvg::element::ElementData, rsvg::element::ElementCreateFlags), std::hash::random::RandomState>>
+   fun:reserve<&str, (fn(&rsvg::session::Session, &rsvg::xml::attributes::Attributes) -> rsvg::element::ElementData, rsvg::element::ElementCreateFlags), std::hash::random::RandomState, alloc::alloc::Global>
+   fun:extend<&str, (fn(&rsvg::session::Session, &rsvg::xml::attributes::Attributes) -> rsvg::element::ElementData, rsvg::element::ElementCreateFlags), std::hash::random::RandomState, alloc::alloc::Global, core::iter::adapters::map::Map<alloc::vec::into_iter::IntoIter<(&str, fn(&rsvg::session::Session, &rsvg::xml::attributes::Attributes) -> rsvg::element::ElementData, rsvg::element::ElementCreateFlags), alloc::alloc::Global>, rsvg::element::get_element_creators::{closure#0}::{closure_env#0}>>
+   fun:extend<&str, (fn(&rsvg::session::Session, &rsvg::xml::attributes::Attributes) -> rsvg::element::ElementData, rsvg::element::ElementCreateFlags), std::hash::random::RandomState, core::iter::adapters::map::Map<alloc::vec::into_iter::IntoIter<(&str, fn(&rsvg::session::Session, &rsvg::xml::attributes::Attributes) -> rsvg::element::ElementData, rsvg::element::ElementCreateFlags), alloc::alloc::Global>, rsvg::element::get_element_creators::{closure#0}::{closure_env#0}>>
+   fun:from_iter<&str, (fn(&rsvg::session::Session, &rsvg::xml::attributes::Attributes) -> rsvg::element::ElementData, rsvg::element::ElementCreateFlags), std::hash::random::RandomState, core::iter::adapters::map::Map<alloc::vec::into_iter::IntoIter<(&str, fn(&rsvg::session::Session, &rsvg::xml::attributes::Attributes) -> rsvg::element::ElementData, rsvg::element::ElementCreateFlags), alloc::alloc::Global>, rsvg::element::get_element_creators::{closure#0}::{closure_env#0}>>
+   fun:collect<core::iter::adapters::map::Map<alloc::vec::into_iter::IntoIter<(&str, fn(&rsvg::session::Session, &rsvg::xml::attributes::Attributes) -> rsvg::element::ElementData, rsvg::element::ElementCreateFlags), alloc::alloc::Global>, rsvg::element::get_element_creators::{closure#0}::{closure_env#0}>, std::collections::hash::map::HashMap<&str, (fn(&rsvg::session::Session, &rsvg::xml::attributes::Attributes) -> rsvg::element::ElementData, rsvg::element::ElementCreateFlags), std::hash::random::RandomState>>
+   fun:{closure#0}
+   fun:{closure#0}<std::collections::hash::map::HashMap<&str, (fn(&rsvg::session::Session, &rsvg::xml::attributes::Attributes) -> rsvg::element::ElementData, rsvg::element::ElementCreateFlags), std::hash::random::RandomState>, rsvg::element::get_element_creators::{closure_env#0}>
+   fun:{closure#0}<std::collections::hash::map::HashMap<&str, (fn(&rsvg::session::Session, &rsvg::xml::attributes::Attributes) -> rsvg::element::ElementData, rsvg::element::ElementCreateFlags), std::hash::random::RandomState>, std::sync::once_lock::{impl#0}::get_or_init::{closure_env#0}<std::collections::hash::map::HashMap<&str, (fn(&rsvg::session::Session, &rsvg::xml::attributes::Attributes) -> rsvg::element::ElementData, rsvg::element::ElementCreateFlags), std::hash::random::RandomState>, rsvg::element::get_element_creators::{closure_env#0}>, !>
+   fun:_ZN3std4sync6poison4once4Once15call_once_force28_$u7b$$u7b$closure$u7d$$u7d$17h4725ba8ac23df6d0E
+   fun:_ZN3std3sys4sync4once5futex4Once4call17h7ebb5d9f7cf617b8E
+   fun:call_once_force<std::sync::once_lock::{impl#0}::initialize::{closure_env#0}<std::collections::hash::map::HashMap<&str, (fn(&rsvg::session::Session, &rsvg::xml::attributes::Attributes) -> rsvg::element::ElementData, rsvg::element::ElementCreateFlags), std::hash::random::RandomState>, std::sync::once_lock::{impl#0}::get_or_init::{closure_env#0}<std::collections::hash::map::HashMap<&str, (fn(&rsvg::session::Session, &rsvg::xml::attributes::Attributes) -> rsvg::element::ElementData, rsvg::element::ElementCreateFlags), std::hash::random::RandomState>, rsvg::element::get_element_creators::{closure_env#0}>, !>>
+   fun:_ZN3std4sync9once_lock17OnceLock$LT$T$GT$10initialize17ha5067e97dfa17600E
+   fun:get_or_try_init<std::collections::hash::map::HashMap<&str, (fn(&rsvg::session::Session, &rsvg::xml::attributes::Attributes) -> rsvg::element::ElementData, rsvg::element::ElementCreateFlags), std::hash::random::RandomState>, std::sync::once_lock::{impl#0}::get_or_init::{closure_env#0}<std::collections::hash::map::HashMap<&str, (fn(&rsvg::session::Session, &rsvg::xml::attributes::Attributes) -> rsvg::element::ElementData, rsvg::element::ElementCreateFlags), std::hash::random::RandomState>, rsvg::element::get_element_creators::{closure_env#0}>, !>
+   fun:get_or_init<std::collections::hash::map::HashMap<&str, (fn(&rsvg::session::Session, &rsvg::xml::attributes::Attributes) -> rsvg::element::ElementData, rsvg::element::ElementCreateFlags), std::hash::random::RandomState>, rsvg::element::get_element_creators::{closure_env#0}>
+   fun:get_element_creators
+   fun:new
+   fun:new_element
+   fun:append_element
+   fun:element_creation_start_element
+   fun:start_element
+   fun:_ZN4rsvg3xml9xml2_load23sax_start_element_ns_cb17heff196cc2fb1bbf8E
+   fun:xmlParseStartTag2.constprop.0
+   fun:xmlParseElementStart
+   fun:xmlParseElement
+   fun:xmlParseDocument
+   fun:parse
+   fun:{closure#0}
+   fun:and_then<alloc::boxed::Box<rsvg::xml::xml2_load::Xml2Parser, alloc::alloc::Global>, rsvg::error::LoadingError, (), rsvg::xml::{impl#2}::parse_from_stream::{closure_env#0}>
+   fun:_ZN4rsvg3xml8XmlState17parse_from_stream17h1d46a1694b1544c2E
+   fun:build_document
+   fun:xml_load_from_possibly_compressed_stream
+   fun:_ZN4rsvg8document8Document16load_from_stream17hb19fe6193afffda8E
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:calloc
+   fun:allocate_dtv
+   fun:_dl_allocate_tls
+   fun:allocate_stack
+   fun:pthread_create@@GLIBC_2.34
+   fun:UnknownInlinedFun
+   fun:g_thread_new_internal
+   fun:g_thread_new
+   fun:dconf_gdbus_get_worker_context
+   fun:dconf_engine_dbus_call_async_func.constprop.0.isra.0
+   fun:UnknownInlinedFun
+   fun:dconf_settings_backend_subscribe
+   fun:g_object_new_internal.part.0
+   fun:UnknownInlinedFun
+   fun:g_object_new_valist
+   fun:g_object_new
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:calloc
+   fun:allocate_dtv
+   fun:_dl_allocate_tls
+   fun:allocate_stack
+   fun:pthread_create@@GLIBC_2.34
+   fun:UnknownInlinedFun
+   fun:g_thread_new_internal
+   fun:g_thread_new
+   fun:UnknownInlinedFun
+   fun:UnknownInlinedFun
+   fun:initable_init
+   fun:async_init_thread
+   fun:g_task_thread_pool_thread
+   fun:g_thread_pool_thread_proxy
+   fun:g_thread_proxy
+   fun:start_thread
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:calloc
+   fun:allocate_dtv
+   fun:_dl_allocate_tls
+   fun:allocate_stack
+   fun:pthread_create@@GLIBC_2.34
+   fun:UnknownInlinedFun
+   fun:g_thread_new_internal
+   fun:g_thread_new
+   fun:g_get_worker_context
+   fun:UnknownInlinedFun
+   fun:g_task_get_type_once
+   fun:g_task_get_type
+   fun:UnknownInlinedFun
+   fun:_g_dbus_initialize.part.0
+   fun:UnknownInlinedFun
+   fun:g_dbus_proxy_new_for_bus
+   fun:UnknownInlinedFun
+   fun:UnknownInlinedFun
+   fun:_gdk_wayland_display_open
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:calloc
+   fun:allocate_dtv
+   fun:_dl_allocate_tls
+   fun:allocate_stack
+   fun:pthread_create@@GLIBC_2.34
+   fun:UnknownInlinedFun
+   fun:g_thread_new_internal
+   fun:g_thread_pool_new_full
+   fun:UnknownInlinedFun
+   fun:g_task_get_type_once
+   fun:g_task_get_type
+   fun:UnknownInlinedFun
+   fun:_g_dbus_initialize.part.0
+   fun:UnknownInlinedFun
+   fun:g_dbus_proxy_new_for_bus
+   fun:UnknownInlinedFun
+   fun:UnknownInlinedFun
+   fun:_gdk_wayland_display_open
+   fun:gdk_display_manager_open_display
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:calloc
+   fun:allocate_dtv
+   fun:_dl_allocate_tls
+   fun:allocate_stack
+   fun:pthread_create@@GLIBC_2.34
+   fun:UnknownInlinedFun
+   fun:g_thread_new_internal
+   fun:g_thread_new
+   fun:UnknownInlinedFun
+   fun:pango_fc_font_map_init
+   fun:g_type_create_instance
+   fun:g_object_new_internal.part.0
+   fun:UnknownInlinedFun
+   fun:g_object_new_with_properties
+   fun:g_object_new
+   fun:UnknownInlinedFun
+   fun:pango_cairo_font_map_get_default
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:gtk_css_node_declaration_make_writable_resize.lto_priv.0
+   fun:gtk_css_node_declaration_add_class
+   fun:UnknownInlinedFun
+   fun:UnknownInlinedFun
+   fun:gtk_style_context_add_class
+   fun:UnknownInlinedFun
+   fun:set_color
+   fun:gtk_style_update_from_context
+   fun:g_closure_invoke
+   fun:signal_emit_unlocked_R.isra.0
+   fun:signal_emit_valist_unlocked
+   fun:g_signal_emit_valist
+   fun:g_signal_emit
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:gtk_css_node_declaration_make_writable_resize.lto_priv.0
+   fun:gtk_css_node_declaration_add_class
+   fun:UnknownInlinedFun
+   fun:UnknownInlinedFun
+   fun:gtk_style_context_add_class
+   fun:UnknownInlinedFun
+   fun:set_color
+   fun:gtk_style_update_from_context
+   fun:g_closure_invoke
+   fun:signal_emit_unlocked_R.isra.0
+   fun:signal_emit_valist_unlocked
+   fun:g_signal_emit_valist
+   fun:g_signal_emit
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:UnknownInlinedFun
+   fun:FcPatternObjectAddWithBinding
+   fun:UnknownInlinedFun
+   fun:FcFontSetList
+   fun:ensure_families
+   fun:pango_fc_font_map_get_family
+   fun:pango_fc_font_map_get_face
+   fun:UnknownInlinedFun
+   fun:UnknownInlinedFun
+   fun:pango_fc_fontset_get_font_at
+   fun:pango_fc_fontset_foreach
+   fun:UnknownInlinedFun
+   fun:pango_context_get_metrics
+   fun:UnknownInlinedFun
+   fun:UnknownInlinedFun
+   fun:UnknownInlinedFun
+   fun:gtk_label_measure.lto_priv.0
+   fun:gtk_css_custom_gadget_get_preferred_size
+   fun:gtk_css_gadget_get_preferred_size
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:gtk_css_node_declaration_make_writable_resize.lto_priv.0
+   fun:gtk_css_node_declaration_add_class
+   fun:UnknownInlinedFun
+   fun:UnknownInlinedFun
+   fun:gtk_style_context_add_class
+   fun:gtk_style_update_from_context
+   fun:g_closure_invoke
+   fun:signal_emit_unlocked_R.isra.0
+   fun:signal_emit_valist_unlocked
+   fun:g_signal_emit_valist
+   fun:g_signal_emit
+   fun:UnknownInlinedFun
+   fun:gtk_style_context_validate
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:FcPatternObjectInsertElt
+   fun:FcPatternObjectAddWithBinding
+   fun:UnknownInlinedFun
+   fun:FcFontSetList
+   fun:ensure_families
+   fun:pango_fc_font_map_get_family
+   fun:pango_fc_font_map_get_face
+   fun:UnknownInlinedFun
+   fun:UnknownInlinedFun
+   fun:pango_fc_fontset_get_font_at
+   fun:pango_fc_fontset_foreach
+   fun:UnknownInlinedFun
+   fun:pango_context_get_metrics
+   fun:UnknownInlinedFun
+   fun:UnknownInlinedFun
+   fun:UnknownInlinedFun
+   fun:gtk_label_measure.lto_priv.0
+   fun:gtk_css_custom_gadget_get_preferred_size
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:UnknownInlinedFun
+   fun:g_memdup
+   fun:gtk_css_node_declaration_make_writable.lto_priv.0
+   fun:UnknownInlinedFun
+   fun:UnknownInlinedFun
+   fun:UnknownInlinedFun
+   fun:gtk_style_context_set_state
+   fun:gtk_style_update_from_context
+   fun:g_closure_invoke
+   fun:signal_emit_unlocked_R.isra.0
+   fun:signal_emit_valist_unlocked
+   fun:g_signal_emit_valist
+   fun:g_signal_emit
+   fun:UnknownInlinedFun
+   fun:gtk_style_context_validate
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:strdup
+   fun:FcValueSave
+   fun:FcPatternObjectAddWithBinding
+   fun:UnknownInlinedFun
+   fun:FcFontSetList
+   fun:ensure_families
+   fun:pango_fc_font_map_get_family
+   fun:pango_fc_font_map_get_face
+   fun:UnknownInlinedFun
+   fun:UnknownInlinedFun
+   fun:pango_fc_fontset_get_font_at
+   fun:pango_fc_fontset_foreach
+   fun:UnknownInlinedFun
+   fun:pango_context_get_metrics
+   fun:UnknownInlinedFun
+   fun:UnknownInlinedFun
+   fun:UnknownInlinedFun
+   fun:gtk_label_measure.lto_priv.0
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:UnknownInlinedFun
+   fun:g_atomic_rc_box_alloc0
+   fun:UnknownInlinedFun
+   fun:UnknownInlinedFun
+   fun:pango_fc_font_map_load_fontset
+   fun:pango_context_get_metrics
+   fun:UnknownInlinedFun
+   fun:UnknownInlinedFun
+   fun:UnknownInlinedFun
+   fun:gtk_label_measure.lto_priv.0
+   fun:gtk_css_custom_gadget_get_preferred_size
+   fun:gtk_css_gadget_get_preferred_size
+   fun:gtk_label_get_preferred_width.lto_priv.0
+   fun:gtk_widget_query_size_for_orientation
+   fun:gtk_widget_get_preferred_width
+   fun:UnknownInlinedFun
+   fun:gtk_box_get_content_size
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:malloc
+   fun:g_malloc
+   fun:g_strconcat
+   fun:gtk_module_init
+   fun:UnknownInlinedFun
+   fun:load_modules.lto_priv.0
+   fun:UnknownInlinedFun
+   fun:settings_update_modules
+   fun:g_closure_invoke
+   fun:signal_emit_unlocked_R.isra.0
+   fun:signal_emit_valist_unlocked
+   fun:g_signal_emit_valist
+   fun:g_signal_emit
+   fun:g_object_dispatch_properties_changed.lto_priv.0
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:malloc
+   fun:g_malloc
+   fun:g_strconcat
+   fun:gtk_module_init
+   fun:UnknownInlinedFun
+   fun:load_modules.lto_priv.0
+   fun:UnknownInlinedFun
+   fun:settings_update_modules
+   fun:g_closure_invoke
+   fun:signal_emit_unlocked_R.isra.0
+   fun:signal_emit_valist_unlocked
+   fun:g_signal_emit_valist
+   fun:g_signal_emit
+   fun:g_object_dispatch_properties_changed.lto_priv.0
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:pango_language_from_string
+   fun:pango_language_get_default
+   fun:pango_context_init
+   fun:g_type_create_instance
+   fun:g_object_new_internal.part.0
+   fun:UnknownInlinedFun
+   fun:g_object_new_with_properties
+   fun:g_object_new
+   fun:pango_font_map_create_context
+   fun:gdk_pango_context_get_for_screen
+   fun:gtk_widget_create_pango_context
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:BadSize
+   fun:posix_memalign
+   obj:/usr/lib/libnvidia-eglcore.so.580.76.05
+   obj:/usr/lib/libnvidia-eglcore.so.580.76.05
+   obj:/usr/lib/libnvidia-eglcore.so.580.76.05
+   obj:/usr/lib/libnvidia-eglcore.so.580.76.05
+   fun:NvGlEglApiInit
+   obj:/usr/lib/libEGL_nvidia.so.580.76.05
+   obj:/usr/lib/libEGL_nvidia.so.580.76.05
+   obj:/usr/lib/libEGL_nvidia.so.580.76.05
+   obj:/usr/lib/libEGL_nvidia.so.580.76.05
+   obj:/usr/lib/libEGL_nvidia.so.580.76.05
+   fun:UnknownInlinedFun
+   fun:loadEGLExternalPlatform
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:ReallocZero
+   fun:realloc
+   obj:/usr/lib/libnvidia-eglcore.so.580.76.05
+   obj:/usr/lib/libnvidia-eglcore.so.580.76.05
+   obj:/usr/lib/libnvidia-eglcore.so.580.76.05
+   obj:/usr/lib/libnvidia-eglcore.so.580.76.05
+   fun:NvGlEglApiInit
+   obj:/usr/lib/libEGL_nvidia.so.580.76.05
+   obj:/usr/lib/libEGL_nvidia.so.580.76.05
+   obj:/usr/lib/libEGL_nvidia.so.580.76.05
+   obj:/usr/lib/libEGL_nvidia.so.580.76.05
+   obj:/usr/lib/libEGL_nvidia.so.580.76.05
+   fun:UnknownInlinedFun
+   fun:loadEGLExternalPlatform
+}
