@@ -1,9 +1,9 @@
-#include "Render/Mesh.h"
-#include "Render/Texture.h"
 #include <Core/Engine.h>
 
 void run_engine(Engine* engine)
 {
+    glEnable(GL_DEPTH_TEST);
+
     float vertices[] = {
         // Positions         // TexCoords // Normals
         // Front face
@@ -98,11 +98,59 @@ void run_engine(Engine* engine)
         printf("FAILED TO CREATE A TEXTURE\n");
     }
 
+    Camera camera = {
+        .pos = {0.0f, 0.0f, 3.0f},
+        .front = {0.0f, 0.0f, -1.0f},
+        .up = {0.0f, 1.0f, 0.0f}
+    };
+
+    float last_frame = glfwGetTime();
+    float deltaTime;
+
+    glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+
     while(!glfwWindowShouldClose(engine->window->frame)) {
-        glClearColor(0.3, 0.5, 0.1, 1.0);
-        glClear(GL_COLOR_BUFFER_BIT);
+        glClearColor(0.1f, 0.1f, 0.1f, 1.0f);
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+        float current_frame = glfwGetTime();
+        deltaTime = current_frame - last_frame;
+        last_frame = current_frame;
+
+        //Temp
+        if(glfwGetKey(engine->window->frame, GLFW_KEY_ESCAPE) == GLFW_PRESS)
+            glfwSetWindowShouldClose(engine->window->frame, GL_TRUE);
+
+        vec3 temp;
+        float speed = deltaTime * 2.5f;
+        if(glfwGetKey(engine->window->frame, GLFW_KEY_W) == GLFW_PRESS) {
+            glm_vec3_scale(camera.front, speed, temp); 
+            glm_vec3_add(camera.pos, temp, camera.pos);
+        }
+
+        if(glfwGetKey(engine->window->frame, GLFW_KEY_S) == GLFW_PRESS) {
+            glm_vec3_scale(camera.front, speed, temp); 
+            glm_vec3_sub(camera.pos, temp, camera.pos);
+        }
+
+        mat4 model, view, proj;
+        glm_mat4_identity(model);
+        glm_mat4_identity(view);
+        glm_mat4_identity(proj);
+
+        //View Mat
+        vec3 look_pos;
+        glm_vec3_add(camera.pos, camera.front, look_pos);
+        glm_lookat(camera.pos, look_pos, camera.up, view);
+
+        //Projection Mat
+        glm_perspective(glm_rad(45.0f), (float)engine->window->width/engine->window->width, 0.1f, 100.0f, proj);
 
         use_shader(shader);
+        shader_set_mat4(model, "model", shader);
+        shader_set_mat4(view, "view", shader);
+        shader_set_mat4(proj, "proj", shader);
+
         use_texture(texture);
         draw_mesh(mesh_cube);
 

@@ -7,6 +7,13 @@
 #include <Render/Shader.h>
 #include <Render/Mesh.h>
 #include <Render/Texture.h>
+#include "cglm/cglm.h"
+
+typedef struct {
+    vec3 pos;
+    vec3 front;
+    vec3 up;
+} Camera;
 
 typedef struct Engine {
     Window* window;
