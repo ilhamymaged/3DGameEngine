@@ -4,6 +4,7 @@
 #include <glad/glad.h>
 #include <cglm/cglm.h>
 #include <stdint.h>
+#include <string.h>
 
 typedef struct Vertex {
     vec3 pos;
@@ -21,7 +22,7 @@ typedef struct Mesh  {
     uint32_t EBO;
 }Mesh;
 
-bool create_mesh(Mesh* mesh, Vertex* vertices, uint32_t* indices, uint32_t vertex_count, uint32_t index_count);
+bool create_mesh(Mesh** out_mesh, Vertex* vertices, uint32_t* indices, uint32_t vertex_count, uint32_t index_count);
 void draw_mesh(Mesh* mesh);
 void destroy_mesh(Mesh* mesh);
 

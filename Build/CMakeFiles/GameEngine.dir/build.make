@@ -198,10 +198,38 @@ CMakeFiles/GameEngine.dir/Src/Render/Shader.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GameEngine.dir/Src/Render/Shader.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ilhamy/Programming/3DGameEngine/Src/Render/Shader.c -o CMakeFiles/GameEngine.dir/Src/Render/Shader.c.s
 
+CMakeFiles/GameEngine.dir/Src/Render/Texture.c.o: CMakeFiles/GameEngine.dir/flags.make
+CMakeFiles/GameEngine.dir/Src/Render/Texture.c.o: /home/ilhamy/Programming/3DGameEngine/Src/Render/Texture.c
+CMakeFiles/GameEngine.dir/Src/Render/Texture.c.o: CMakeFiles/GameEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilhamy/Programming/3DGameEngine/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/GameEngine.dir/Src/Render/Texture.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GameEngine.dir/Src/Render/Texture.c.o -MF CMakeFiles/GameEngine.dir/Src/Render/Texture.c.o.d -o CMakeFiles/GameEngine.dir/Src/Render/Texture.c.o -c /home/ilhamy/Programming/3DGameEngine/Src/Render/Texture.c
+
+CMakeFiles/GameEngine.dir/Src/Render/Texture.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GameEngine.dir/Src/Render/Texture.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ilhamy/Programming/3DGameEngine/Src/Render/Texture.c > CMakeFiles/GameEngine.dir/Src/Render/Texture.c.i
+
+CMakeFiles/GameEngine.dir/Src/Render/Texture.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GameEngine.dir/Src/Render/Texture.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ilhamy/Programming/3DGameEngine/Src/Render/Texture.c -o CMakeFiles/GameEngine.dir/Src/Render/Texture.c.s
+
+CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.o: CMakeFiles/GameEngine.dir/flags.make
+CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.o: /home/ilhamy/Programming/3DGameEngine/Src/Render/stb_image.c
+CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.o: CMakeFiles/GameEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilhamy/Programming/3DGameEngine/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.o -MF CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.o.d -o CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.o -c /home/ilhamy/Programming/3DGameEngine/Src/Render/stb_image.c
+
+CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ilhamy/Programming/3DGameEngine/Src/Render/stb_image.c > CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.i
+
+CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ilhamy/Programming/3DGameEngine/Src/Render/stb_image.c -o CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.s
+
 CMakeFiles/GameEngine.dir/Src/Utility/Utility.c.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/Src/Utility/Utility.c.o: /home/ilhamy/Programming/3DGameEngine/Src/Utility/Utility.c
 CMakeFiles/GameEngine.dir/Src/Utility/Utility.c.o: CMakeFiles/GameEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilhamy/Programming/3DGameEngine/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/GameEngine.dir/Src/Utility/Utility.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilhamy/Programming/3DGameEngine/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/GameEngine.dir/Src/Utility/Utility.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GameEngine.dir/Src/Utility/Utility.c.o -MF CMakeFiles/GameEngine.dir/Src/Utility/Utility.c.o.d -o CMakeFiles/GameEngine.dir/Src/Utility/Utility.c.o -c /home/ilhamy/Programming/3DGameEngine/Src/Utility/Utility.c
 
 CMakeFiles/GameEngine.dir/Src/Utility/Utility.c.i: cmake_force
@@ -215,7 +243,7 @@ CMakeFiles/GameEngine.dir/Src/Utility/Utility.c.s: cmake_force
 CMakeFiles/GameEngine.dir/Src/glad.c.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/Src/glad.c.o: /home/ilhamy/Programming/3DGameEngine/Src/glad.c
 CMakeFiles/GameEngine.dir/Src/glad.c.o: CMakeFiles/GameEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilhamy/Programming/3DGameEngine/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/GameEngine.dir/Src/glad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilhamy/Programming/3DGameEngine/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/GameEngine.dir/Src/glad.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GameEngine.dir/Src/glad.c.o -MF CMakeFiles/GameEngine.dir/Src/glad.c.o.d -o CMakeFiles/GameEngine.dir/Src/glad.c.o -c /home/ilhamy/Programming/3DGameEngine/Src/glad.c
 
 CMakeFiles/GameEngine.dir/Src/glad.c.i: cmake_force
@@ -229,7 +257,7 @@ CMakeFiles/GameEngine.dir/Src/glad.c.s: cmake_force
 CMakeFiles/GameEngine.dir/Src/main.c.o: CMakeFiles/GameEngine.dir/flags.make
 CMakeFiles/GameEngine.dir/Src/main.c.o: /home/ilhamy/Programming/3DGameEngine/Src/main.c
 CMakeFiles/GameEngine.dir/Src/main.c.o: CMakeFiles/GameEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilhamy/Programming/3DGameEngine/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/GameEngine.dir/Src/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ilhamy/Programming/3DGameEngine/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/GameEngine.dir/Src/main.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/GameEngine.dir/Src/main.c.o -MF CMakeFiles/GameEngine.dir/Src/main.c.o.d -o CMakeFiles/GameEngine.dir/Src/main.c.o -c /home/ilhamy/Programming/3DGameEngine/Src/main.c
 
 CMakeFiles/GameEngine.dir/Src/main.c.i: cmake_force
@@ -251,6 +279,8 @@ GameEngine_OBJECTS = \
 "CMakeFiles/GameEngine.dir/Src/Render/Renderer.c.o" \
 "CMakeFiles/GameEngine.dir/Src/Render/Scene.c.o" \
 "CMakeFiles/GameEngine.dir/Src/Render/Shader.c.o" \
+"CMakeFiles/GameEngine.dir/Src/Render/Texture.c.o" \
+"CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.o" \
 "CMakeFiles/GameEngine.dir/Src/Utility/Utility.c.o" \
 "CMakeFiles/GameEngine.dir/Src/glad.c.o" \
 "CMakeFiles/GameEngine.dir/Src/main.c.o"
@@ -267,6 +297,8 @@ GameEngine: CMakeFiles/GameEngine.dir/Src/Render/Model.c.o
 GameEngine: CMakeFiles/GameEngine.dir/Src/Render/Renderer.c.o
 GameEngine: CMakeFiles/GameEngine.dir/Src/Render/Scene.c.o
 GameEngine: CMakeFiles/GameEngine.dir/Src/Render/Shader.c.o
+GameEngine: CMakeFiles/GameEngine.dir/Src/Render/Texture.c.o
+GameEngine: CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.o
 GameEngine: CMakeFiles/GameEngine.dir/Src/Utility/Utility.c.o
 GameEngine: CMakeFiles/GameEngine.dir/Src/glad.c.o
 GameEngine: CMakeFiles/GameEngine.dir/Src/main.c.o
@@ -277,7 +309,7 @@ GameEngine: Vendor/cglm/libcglm.so.0.9.6
 GameEngine: /usr/lib/librt.a
 GameEngine: /usr/lib/libm.so
 GameEngine: CMakeFiles/GameEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ilhamy/Programming/3DGameEngine/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking C executable GameEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ilhamy/Programming/3DGameEngine/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking C executable GameEngine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GameEngine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

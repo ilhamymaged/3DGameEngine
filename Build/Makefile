@@ -462,6 +462,54 @@ Src/Render/Shader.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Render/Shader.c.s
 .PHONY : Src/Render/Shader.c.s
 
+Src/Render/Texture.o: Src/Render/Texture.c.o
+.PHONY : Src/Render/Texture.o
+
+# target to build an object file
+Src/Render/Texture.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Render/Texture.c.o
+.PHONY : Src/Render/Texture.c.o
+
+Src/Render/Texture.i: Src/Render/Texture.c.i
+.PHONY : Src/Render/Texture.i
+
+# target to preprocess a source file
+Src/Render/Texture.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Render/Texture.c.i
+.PHONY : Src/Render/Texture.c.i
+
+Src/Render/Texture.s: Src/Render/Texture.c.s
+.PHONY : Src/Render/Texture.s
+
+# target to generate assembly for a file
+Src/Render/Texture.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Render/Texture.c.s
+.PHONY : Src/Render/Texture.c.s
+
+Src/Render/stb_image.o: Src/Render/stb_image.c.o
+.PHONY : Src/Render/stb_image.o
+
+# target to build an object file
+Src/Render/stb_image.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.o
+.PHONY : Src/Render/stb_image.c.o
+
+Src/Render/stb_image.i: Src/Render/stb_image.c.i
+.PHONY : Src/Render/stb_image.i
+
+# target to preprocess a source file
+Src/Render/stb_image.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.i
+.PHONY : Src/Render/stb_image.c.i
+
+Src/Render/stb_image.s: Src/Render/stb_image.c.s
+.PHONY : Src/Render/stb_image.s
+
+# target to generate assembly for a file
+Src/Render/stb_image.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.s
+.PHONY : Src/Render/stb_image.c.s
+
 Src/Utility/Utility.o: Src/Utility/Utility.c.o
 .PHONY : Src/Utility/Utility.o
 
@@ -580,6 +628,12 @@ help:
 	@echo "... Src/Render/Shader.o"
 	@echo "... Src/Render/Shader.i"
 	@echo "... Src/Render/Shader.s"
+	@echo "... Src/Render/Texture.o"
+	@echo "... Src/Render/Texture.i"
+	@echo "... Src/Render/Texture.s"
+	@echo "... Src/Render/stb_image.o"
+	@echo "... Src/Render/stb_image.i"
+	@echo "... Src/Render/stb_image.s"
 	@echo "... Src/Utility/Utility.o"
 	@echo "... Src/Utility/Utility.i"
 	@echo "... Src/Utility/Utility.s"

@@ -55,6 +55,18 @@
 },
 {
   "directory": "/home/ilhamy/Programming/3DGameEngine/Build",
+  "command": "/usr/bin/cc  -I/home/ilhamy/Programming/3DGameEngine/Include -I/home/ilhamy/Programming/3DGameEngine/Src -I/home/ilhamy/Programming/3DGameEngine/Vendor/glfw/include -I/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include  -o CMakeFiles/GameEngine.dir/Src/Render/Texture.c.o -c /home/ilhamy/Programming/3DGameEngine/Src/Render/Texture.c",
+  "file": "/home/ilhamy/Programming/3DGameEngine/Src/Render/Texture.c",
+  "output": "CMakeFiles/GameEngine.dir/Src/Render/Texture.c.o"
+},
+{
+  "directory": "/home/ilhamy/Programming/3DGameEngine/Build",
+  "command": "/usr/bin/cc  -I/home/ilhamy/Programming/3DGameEngine/Include -I/home/ilhamy/Programming/3DGameEngine/Src -I/home/ilhamy/Programming/3DGameEngine/Vendor/glfw/include -I/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include  -o CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.o -c /home/ilhamy/Programming/3DGameEngine/Src/Render/stb_image.c",
+  "file": "/home/ilhamy/Programming/3DGameEngine/Src/Render/stb_image.c",
+  "output": "CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.o"
+},
+{
+  "directory": "/home/ilhamy/Programming/3DGameEngine/Build",
   "command": "/usr/bin/cc  -I/home/ilhamy/Programming/3DGameEngine/Include -I/home/ilhamy/Programming/3DGameEngine/Src -I/home/ilhamy/Programming/3DGameEngine/Vendor/glfw/include -I/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include  -o CMakeFiles/GameEngine.dir/Src/Utility/Utility.c.o -c /home/ilhamy/Programming/3DGameEngine/Src/Utility/Utility.c",
   "file": "/home/ilhamy/Programming/3DGameEngine/Src/Utility/Utility.c",
   "output": "CMakeFiles/GameEngine.dir/Src/Utility/Utility.c.o"

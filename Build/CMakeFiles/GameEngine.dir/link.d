@@ -11,6 +11,8 @@ GameEngine: \
   CMakeFiles/GameEngine.dir/Src/Render/Renderer.c.o \
   CMakeFiles/GameEngine.dir/Src/Render/Scene.c.o \
   CMakeFiles/GameEngine.dir/Src/Render/Shader.c.o \
+  CMakeFiles/GameEngine.dir/Src/Render/Texture.c.o \
+  CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.o \
   CMakeFiles/GameEngine.dir/Src/Utility/Utility.c.o \
   CMakeFiles/GameEngine.dir/Src/glad.c.o \
   CMakeFiles/GameEngine.dir/Src/main.c.o \
@@ -68,6 +70,10 @@ CMakeFiles/GameEngine.dir/Src/Render/Renderer.c.o:
 CMakeFiles/GameEngine.dir/Src/Render/Scene.c.o:
 
 CMakeFiles/GameEngine.dir/Src/Render/Shader.c.o:
+
+CMakeFiles/GameEngine.dir/Src/Render/Texture.c.o:
+
+CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.o:
 
 CMakeFiles/GameEngine.dir/Src/Utility/Utility.c.o:
 

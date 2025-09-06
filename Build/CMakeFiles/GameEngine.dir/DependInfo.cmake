@@ -17,6 +17,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/ilhamy/Programming/3DGameEngine/Src/Render/Renderer.c" "CMakeFiles/GameEngine.dir/Src/Render/Renderer.c.o" "gcc" "CMakeFiles/GameEngine.dir/Src/Render/Renderer.c.o.d"
   "/home/ilhamy/Programming/3DGameEngine/Src/Render/Scene.c" "CMakeFiles/GameEngine.dir/Src/Render/Scene.c.o" "gcc" "CMakeFiles/GameEngine.dir/Src/Render/Scene.c.o.d"
   "/home/ilhamy/Programming/3DGameEngine/Src/Render/Shader.c" "CMakeFiles/GameEngine.dir/Src/Render/Shader.c.o" "gcc" "CMakeFiles/GameEngine.dir/Src/Render/Shader.c.o.d"
+  "/home/ilhamy/Programming/3DGameEngine/Src/Render/Texture.c" "CMakeFiles/GameEngine.dir/Src/Render/Texture.c.o" "gcc" "CMakeFiles/GameEngine.dir/Src/Render/Texture.c.o.d"
+  "/home/ilhamy/Programming/3DGameEngine/Src/Render/stb_image.c" "CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.o" "gcc" "CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.o.d"
   "/home/ilhamy/Programming/3DGameEngine/Src/Utility/Utility.c" "CMakeFiles/GameEngine.dir/Src/Utility/Utility.c.o" "gcc" "CMakeFiles/GameEngine.dir/Src/Utility/Utility.c.o.d"
   "/home/ilhamy/Programming/3DGameEngine/Src/glad.c" "CMakeFiles/GameEngine.dir/Src/glad.c.o" "gcc" "CMakeFiles/GameEngine.dir/Src/glad.c.o.d"
   "/home/ilhamy/Programming/3DGameEngine/Src/main.c" "CMakeFiles/GameEngine.dir/Src/main.c.o" "gcc" "CMakeFiles/GameEngine.dir/Src/main.c.o.d"
