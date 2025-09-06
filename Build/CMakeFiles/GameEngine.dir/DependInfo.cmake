@@ -10,8 +10,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/ilhamy/Programming/3DGameEngine/Src/Core/Engine.c" "CMakeFiles/GameEngine.dir/Src/Core/Engine.c.o" "gcc" "CMakeFiles/GameEngine.dir/Src/Core/Engine.c.o.d"
   "/home/ilhamy/Programming/3DGameEngine/Src/Core/Window.c" "CMakeFiles/GameEngine.dir/Src/Core/Window.c.o" "gcc" "CMakeFiles/GameEngine.dir/Src/Core/Window.c.o.d"
+  "/home/ilhamy/Programming/3DGameEngine/Src/Render/Entity.c" "CMakeFiles/GameEngine.dir/Src/Render/Entity.c.o" "gcc" "CMakeFiles/GameEngine.dir/Src/Render/Entity.c.o.d"
+  "/home/ilhamy/Programming/3DGameEngine/Src/Render/Material.c" "CMakeFiles/GameEngine.dir/Src/Render/Material.c.o" "gcc" "CMakeFiles/GameEngine.dir/Src/Render/Material.c.o.d"
   "/home/ilhamy/Programming/3DGameEngine/Src/Render/Mesh.c" "CMakeFiles/GameEngine.dir/Src/Render/Mesh.c.o" "gcc" "CMakeFiles/GameEngine.dir/Src/Render/Mesh.c.o.d"
+  "/home/ilhamy/Programming/3DGameEngine/Src/Render/Model.c" "CMakeFiles/GameEngine.dir/Src/Render/Model.c.o" "gcc" "CMakeFiles/GameEngine.dir/Src/Render/Model.c.o.d"
   "/home/ilhamy/Programming/3DGameEngine/Src/Render/Renderer.c" "CMakeFiles/GameEngine.dir/Src/Render/Renderer.c.o" "gcc" "CMakeFiles/GameEngine.dir/Src/Render/Renderer.c.o.d"
+  "/home/ilhamy/Programming/3DGameEngine/Src/Render/Scene.c" "CMakeFiles/GameEngine.dir/Src/Render/Scene.c.o" "gcc" "CMakeFiles/GameEngine.dir/Src/Render/Scene.c.o.d"
   "/home/ilhamy/Programming/3DGameEngine/Src/Render/Shader.c" "CMakeFiles/GameEngine.dir/Src/Render/Shader.c.o" "gcc" "CMakeFiles/GameEngine.dir/Src/Render/Shader.c.o.d"
   "/home/ilhamy/Programming/3DGameEngine/Src/Utility/Utility.c" "CMakeFiles/GameEngine.dir/Src/Utility/Utility.c.o" "gcc" "CMakeFiles/GameEngine.dir/Src/Utility/Utility.c.o.d"
   "/home/ilhamy/Programming/3DGameEngine/Src/glad.c" "CMakeFiles/GameEngine.dir/Src/glad.c.o" "gcc" "CMakeFiles/GameEngine.dir/Src/glad.c.o.d"
