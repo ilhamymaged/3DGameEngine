@@ -120,4 +120,6 @@ CMakeFiles/GameEngine.dir/Src/Render/Mesh.c.o: \
  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/bezier.h \
  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/ray.h \
  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine2d.h \
- /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine2d-post.h
+ /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine2d-post.h \
+ /usr/include/string.h /usr/include/bits/types/locale_t.h \
+ /usr/include/bits/types/__locale_t.h /usr/include/strings.h

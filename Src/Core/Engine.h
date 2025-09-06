@@ -4,6 +4,9 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 #include <Core/Window.h>
+#include <Render/Shader.h>
+#include <Render/Mesh.h>
+#include <Render/Texture.h>
 
 typedef struct Engine {
     Window* window;

@@ -4,9 +4,15 @@ GameEngine: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o \
   CMakeFiles/GameEngine.dir/Src/Core/Engine.c.o \
   CMakeFiles/GameEngine.dir/Src/Core/Window.c.o \
+  CMakeFiles/GameEngine.dir/Src/Render/Entity.c.o \
+  CMakeFiles/GameEngine.dir/Src/Render/Material.c.o \
   CMakeFiles/GameEngine.dir/Src/Render/Mesh.c.o \
+  CMakeFiles/GameEngine.dir/Src/Render/Model.c.o \
   CMakeFiles/GameEngine.dir/Src/Render/Renderer.c.o \
+  CMakeFiles/GameEngine.dir/Src/Render/Scene.c.o \
   CMakeFiles/GameEngine.dir/Src/Render/Shader.c.o \
+  CMakeFiles/GameEngine.dir/Src/Render/Texture.c.o \
+  CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.o \
   CMakeFiles/GameEngine.dir/Src/Utility/Utility.c.o \
   CMakeFiles/GameEngine.dir/Src/glad.c.o \
   CMakeFiles/GameEngine.dir/Src/main.c.o \
@@ -51,11 +57,23 @@ CMakeFiles/GameEngine.dir/Src/Core/Engine.c.o:
 
 CMakeFiles/GameEngine.dir/Src/Core/Window.c.o:
 
+CMakeFiles/GameEngine.dir/Src/Render/Entity.c.o:
+
+CMakeFiles/GameEngine.dir/Src/Render/Material.c.o:
+
 CMakeFiles/GameEngine.dir/Src/Render/Mesh.c.o:
+
+CMakeFiles/GameEngine.dir/Src/Render/Model.c.o:
 
 CMakeFiles/GameEngine.dir/Src/Render/Renderer.c.o:
 
+CMakeFiles/GameEngine.dir/Src/Render/Scene.c.o:
+
 CMakeFiles/GameEngine.dir/Src/Render/Shader.c.o:
+
+CMakeFiles/GameEngine.dir/Src/Render/Texture.c.o:
+
+CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.o:
 
 CMakeFiles/GameEngine.dir/Src/Utility/Utility.c.o:
 

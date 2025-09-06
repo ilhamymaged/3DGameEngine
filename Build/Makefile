@@ -294,6 +294,54 @@ Src/Core/Window.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Core/Window.c.s
 .PHONY : Src/Core/Window.c.s
 
+Src/Render/Entity.o: Src/Render/Entity.c.o
+.PHONY : Src/Render/Entity.o
+
+# target to build an object file
+Src/Render/Entity.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Render/Entity.c.o
+.PHONY : Src/Render/Entity.c.o
+
+Src/Render/Entity.i: Src/Render/Entity.c.i
+.PHONY : Src/Render/Entity.i
+
+# target to preprocess a source file
+Src/Render/Entity.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Render/Entity.c.i
+.PHONY : Src/Render/Entity.c.i
+
+Src/Render/Entity.s: Src/Render/Entity.c.s
+.PHONY : Src/Render/Entity.s
+
+# target to generate assembly for a file
+Src/Render/Entity.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Render/Entity.c.s
+.PHONY : Src/Render/Entity.c.s
+
+Src/Render/Material.o: Src/Render/Material.c.o
+.PHONY : Src/Render/Material.o
+
+# target to build an object file
+Src/Render/Material.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Render/Material.c.o
+.PHONY : Src/Render/Material.c.o
+
+Src/Render/Material.i: Src/Render/Material.c.i
+.PHONY : Src/Render/Material.i
+
+# target to preprocess a source file
+Src/Render/Material.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Render/Material.c.i
+.PHONY : Src/Render/Material.c.i
+
+Src/Render/Material.s: Src/Render/Material.c.s
+.PHONY : Src/Render/Material.s
+
+# target to generate assembly for a file
+Src/Render/Material.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Render/Material.c.s
+.PHONY : Src/Render/Material.c.s
+
 Src/Render/Mesh.o: Src/Render/Mesh.c.o
 .PHONY : Src/Render/Mesh.o
 
@@ -317,6 +365,30 @@ Src/Render/Mesh.s: Src/Render/Mesh.c.s
 Src/Render/Mesh.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Render/Mesh.c.s
 .PHONY : Src/Render/Mesh.c.s
+
+Src/Render/Model.o: Src/Render/Model.c.o
+.PHONY : Src/Render/Model.o
+
+# target to build an object file
+Src/Render/Model.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Render/Model.c.o
+.PHONY : Src/Render/Model.c.o
+
+Src/Render/Model.i: Src/Render/Model.c.i
+.PHONY : Src/Render/Model.i
+
+# target to preprocess a source file
+Src/Render/Model.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Render/Model.c.i
+.PHONY : Src/Render/Model.c.i
+
+Src/Render/Model.s: Src/Render/Model.c.s
+.PHONY : Src/Render/Model.s
+
+# target to generate assembly for a file
+Src/Render/Model.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Render/Model.c.s
+.PHONY : Src/Render/Model.c.s
 
 Src/Render/Renderer.o: Src/Render/Renderer.c.o
 .PHONY : Src/Render/Renderer.o
@@ -342,6 +414,30 @@ Src/Render/Renderer.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Render/Renderer.c.s
 .PHONY : Src/Render/Renderer.c.s
 
+Src/Render/Scene.o: Src/Render/Scene.c.o
+.PHONY : Src/Render/Scene.o
+
+# target to build an object file
+Src/Render/Scene.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Render/Scene.c.o
+.PHONY : Src/Render/Scene.c.o
+
+Src/Render/Scene.i: Src/Render/Scene.c.i
+.PHONY : Src/Render/Scene.i
+
+# target to preprocess a source file
+Src/Render/Scene.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Render/Scene.c.i
+.PHONY : Src/Render/Scene.c.i
+
+Src/Render/Scene.s: Src/Render/Scene.c.s
+.PHONY : Src/Render/Scene.s
+
+# target to generate assembly for a file
+Src/Render/Scene.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Render/Scene.c.s
+.PHONY : Src/Render/Scene.c.s
+
 Src/Render/Shader.o: Src/Render/Shader.c.o
 .PHONY : Src/Render/Shader.o
 
@@ -365,6 +461,54 @@ Src/Render/Shader.s: Src/Render/Shader.c.s
 Src/Render/Shader.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Render/Shader.c.s
 .PHONY : Src/Render/Shader.c.s
+
+Src/Render/Texture.o: Src/Render/Texture.c.o
+.PHONY : Src/Render/Texture.o
+
+# target to build an object file
+Src/Render/Texture.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Render/Texture.c.o
+.PHONY : Src/Render/Texture.c.o
+
+Src/Render/Texture.i: Src/Render/Texture.c.i
+.PHONY : Src/Render/Texture.i
+
+# target to preprocess a source file
+Src/Render/Texture.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Render/Texture.c.i
+.PHONY : Src/Render/Texture.c.i
+
+Src/Render/Texture.s: Src/Render/Texture.c.s
+.PHONY : Src/Render/Texture.s
+
+# target to generate assembly for a file
+Src/Render/Texture.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Render/Texture.c.s
+.PHONY : Src/Render/Texture.c.s
+
+Src/Render/stb_image.o: Src/Render/stb_image.c.o
+.PHONY : Src/Render/stb_image.o
+
+# target to build an object file
+Src/Render/stb_image.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.o
+.PHONY : Src/Render/stb_image.c.o
+
+Src/Render/stb_image.i: Src/Render/stb_image.c.i
+.PHONY : Src/Render/stb_image.i
+
+# target to preprocess a source file
+Src/Render/stb_image.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.i
+.PHONY : Src/Render/stb_image.c.i
+
+Src/Render/stb_image.s: Src/Render/stb_image.c.s
+.PHONY : Src/Render/stb_image.s
+
+# target to generate assembly for a file
+Src/Render/stb_image.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameEngine.dir/build.make CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.s
+.PHONY : Src/Render/stb_image.c.s
 
 Src/Utility/Utility.o: Src/Utility/Utility.c.o
 .PHONY : Src/Utility/Utility.o
@@ -463,15 +607,33 @@ help:
 	@echo "... Src/Core/Window.o"
 	@echo "... Src/Core/Window.i"
 	@echo "... Src/Core/Window.s"
+	@echo "... Src/Render/Entity.o"
+	@echo "... Src/Render/Entity.i"
+	@echo "... Src/Render/Entity.s"
+	@echo "... Src/Render/Material.o"
+	@echo "... Src/Render/Material.i"
+	@echo "... Src/Render/Material.s"
 	@echo "... Src/Render/Mesh.o"
 	@echo "... Src/Render/Mesh.i"
 	@echo "... Src/Render/Mesh.s"
+	@echo "... Src/Render/Model.o"
+	@echo "... Src/Render/Model.i"
+	@echo "... Src/Render/Model.s"
 	@echo "... Src/Render/Renderer.o"
 	@echo "... Src/Render/Renderer.i"
 	@echo "... Src/Render/Renderer.s"
+	@echo "... Src/Render/Scene.o"
+	@echo "... Src/Render/Scene.i"
+	@echo "... Src/Render/Scene.s"
 	@echo "... Src/Render/Shader.o"
 	@echo "... Src/Render/Shader.i"
 	@echo "... Src/Render/Shader.s"
+	@echo "... Src/Render/Texture.o"
+	@echo "... Src/Render/Texture.i"
+	@echo "... Src/Render/Texture.s"
+	@echo "... Src/Render/stb_image.o"
+	@echo "... Src/Render/stb_image.i"
+	@echo "... Src/Render/stb_image.s"
 	@echo "... Src/Utility/Utility.o"
 	@echo "... Src/Utility/Utility.i"
 	@echo "... Src/Utility/Utility.s"

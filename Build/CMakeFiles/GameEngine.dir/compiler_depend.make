@@ -6,16 +6,98 @@ CMakeFiles/GameEngine.dir/Src/Core/Engine.c.o: /home/ilhamy/Programming/3DGameEn
   /home/ilhamy/Programming/3DGameEngine/Include/glad/glad.h \
   /home/ilhamy/Programming/3DGameEngine/Src/Core/Engine.h \
   /home/ilhamy/Programming/3DGameEngine/Src/Core/Window.h \
+  /home/ilhamy/Programming/3DGameEngine/Src/Render/Mesh.h \
+  /home/ilhamy/Programming/3DGameEngine/Src/Render/Shader.h \
+  /home/ilhamy/Programming/3DGameEngine/Src/Render/Texture.h \
+  /home/ilhamy/Programming/3DGameEngine/Src/Render/stb_image.h \
+  /home/ilhamy/Programming/3DGameEngine/Src/Utility/Utility.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/aabb2d.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine-mat.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine-post.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine-pre.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine2d-post.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine2d.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/bezier.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/box.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/cam.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/cglm.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/common.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat4.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/plane.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec3.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec4.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/ortho_rh_no.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/persp.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/persp_rh_no.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/project_no.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/view_rh.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/view_rh_no.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/color.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/common.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/curve.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/ease.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/euler.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/frustum.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/common.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/handed/euler_to_quat_rh.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/io.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/ivec2.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/ivec3.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/ivec4.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat2.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat2x3.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat2x4.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat3.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat3x2.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat3x4.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat4.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat4x2.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat4x3.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/noise.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/plane.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/project.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/quat.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/ray.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/intrin.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/common.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/intrin.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/sse2/affine.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/sse2/mat2.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/sse2/mat3.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/sse2/mat4.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/sse2/quat.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/x86.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/sphere.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/types.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/util.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec2-ext.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec2.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec3-ext.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec3.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec4-ext.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec4.h \
   /home/ilhamy/Programming/3DGameEngine/Vendor/glfw/include/GLFW/glfw3.h \
   /usr/include/alloca.h \
+  /usr/include/assert.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/iscanonical.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/mathcalls.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
   /usr/include/bits/select.h \
@@ -34,11 +116,13 @@ CMakeFiles/GameEngine.dir/Src/Core/Engine.c.o: /home/ilhamy/Programming/3DGameEn
   /usr/include/bits/types/__FILE.h \
   /usr/include/bits/types/__fpos64_t.h \
   /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
   /usr/include/bits/types/__mbstate_t.h \
   /usr/include/bits/types/__sigset_t.h \
   /usr/include/bits/types/clock_t.h \
   /usr/include/bits/types/clockid_t.h \
   /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/locale_t.h \
   /usr/include/bits/types/sigset_t.h \
   /usr/include/bits/types/struct_FILE.h \
   /usr/include/bits/types/struct_timespec.h \
@@ -56,17 +140,26 @@ CMakeFiles/GameEngine.dir/Src/Core/Engine.c.o: /home/ilhamy/Programming/3DGameEn
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/math.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
   /usr/include/stdio.h \
   /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/types.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/float.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mm_malloc.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdalign.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xmmintrin.h
 
 CMakeFiles/GameEngine.dir/Src/Core/Window.c.o: /home/ilhamy/Programming/3DGameEngine/Src/Core/Window.c \
   /home/ilhamy/Programming/3DGameEngine/Include/KHR/khrplatform.h \
@@ -134,10 +227,176 @@ CMakeFiles/GameEngine.dir/Src/Core/Window.c.o: /home/ilhamy/Programming/3DGameEn
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
 
+CMakeFiles/GameEngine.dir/Src/Render/Entity.c.o: /home/ilhamy/Programming/3DGameEngine/Src/Render/Entity.c \
+  /home/ilhamy/Programming/3DGameEngine/Src/Render/Entity.h \
+  /usr/include/stdc-predef.h
+
+CMakeFiles/GameEngine.dir/Src/Render/Material.c.o: /home/ilhamy/Programming/3DGameEngine/Src/Render/Material.c \
+  /home/ilhamy/Programming/3DGameEngine/Src/Render/Material.h \
+  /usr/include/stdc-predef.h
+
 CMakeFiles/GameEngine.dir/Src/Render/Mesh.c.o: /home/ilhamy/Programming/3DGameEngine/Src/Render/Mesh.c \
+  /home/ilhamy/Programming/3DGameEngine/Include/KHR/khrplatform.h \
+  /home/ilhamy/Programming/3DGameEngine/Include/glad/glad.h \
+  /home/ilhamy/Programming/3DGameEngine/Src/Render/Mesh.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/aabb2d.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine-mat.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine-post.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine-pre.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine2d-post.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine2d.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/bezier.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/box.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/cam.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/cglm.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/common.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat4.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/plane.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec3.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec4.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/ortho_rh_no.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/persp.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/persp_rh_no.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/project_no.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/view_rh.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/view_rh_no.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/color.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/common.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/curve.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/ease.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/euler.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/frustum.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/common.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/handed/euler_to_quat_rh.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/io.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/ivec2.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/ivec3.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/ivec4.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat2.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat2x3.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat2x4.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat3.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat3x2.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat3x4.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat4.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat4x2.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat4x3.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/noise.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/plane.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/project.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/quat.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/ray.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/intrin.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/common.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/intrin.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/sse2/affine.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/sse2/mat2.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/sse2/mat3.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/sse2/mat4.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/sse2/quat.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/x86.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/sphere.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/types.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/util.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec2-ext.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec2.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec3-ext.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec3.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec4-ext.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec4.h \
+  /usr/include/alloca.h \
+  /usr/include/assert.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/iscanonical.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/mathcalls.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/math.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/types.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/float.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mm_malloc.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdalign.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xmmintrin.h
+
+CMakeFiles/GameEngine.dir/Src/Render/Model.c.o: /home/ilhamy/Programming/3DGameEngine/Src/Render/Model.c \
+  /home/ilhamy/Programming/3DGameEngine/Src/Render/Model.h \
   /usr/include/stdc-predef.h
 
 CMakeFiles/GameEngine.dir/Src/Render/Renderer.c.o: /home/ilhamy/Programming/3DGameEngine/Src/Render/Renderer.c \
+  /usr/include/stdc-predef.h
+
+CMakeFiles/GameEngine.dir/Src/Render/Scene.c.o: /home/ilhamy/Programming/3DGameEngine/Src/Render/Scene.c \
+  /home/ilhamy/Programming/3DGameEngine/Src/Render/Scene.h \
   /usr/include/stdc-predef.h
 
 CMakeFiles/GameEngine.dir/Src/Render/Shader.c.o: /home/ilhamy/Programming/3DGameEngine/Src/Render/Shader.c \
@@ -209,6 +468,163 @@ CMakeFiles/GameEngine.dir/Src/Render/Shader.c.o: /home/ilhamy/Programming/3DGame
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+
+CMakeFiles/GameEngine.dir/Src/Render/Texture.c.o: /home/ilhamy/Programming/3DGameEngine/Src/Render/Texture.c \
+  /home/ilhamy/Programming/3DGameEngine/Include/KHR/khrplatform.h \
+  /home/ilhamy/Programming/3DGameEngine/Include/glad/glad.h \
+  /home/ilhamy/Programming/3DGameEngine/Src/Render/Texture.h \
+  /home/ilhamy/Programming/3DGameEngine/Src/Render/stb_image.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/types.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+
+CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.o: /home/ilhamy/Programming/3DGameEngine/Src/Render/stb_image.c \
+  /home/ilhamy/Programming/3DGameEngine/Src/Render/stb_image.h \
+  /usr/include/alloca.h \
+  /usr/include/assert.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/iscanonical.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
+  /usr/include/bits/local_lim.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/mathcalls.h \
+  /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/pthread_stack_min-dynamic.h \
+  /usr/include/bits/pthread_stack_min.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/limits.h \
+  /usr/include/linux/limits.h \
+  /usr/include/math.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/types.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mm_malloc.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xmmintrin.h
 
 CMakeFiles/GameEngine.dir/Src/Utility/Utility.c.o: /home/ilhamy/Programming/3DGameEngine/Src/Utility/Utility.c \
   /home/ilhamy/Programming/3DGameEngine/Src/Utility/Utility.h \
@@ -341,16 +757,98 @@ CMakeFiles/GameEngine.dir/Src/main.c.o: /home/ilhamy/Programming/3DGameEngine/Sr
   /home/ilhamy/Programming/3DGameEngine/Include/glad/glad.h \
   /home/ilhamy/Programming/3DGameEngine/Src/Core/Engine.h \
   /home/ilhamy/Programming/3DGameEngine/Src/Core/Window.h \
+  /home/ilhamy/Programming/3DGameEngine/Src/Render/Mesh.h \
+  /home/ilhamy/Programming/3DGameEngine/Src/Render/Shader.h \
+  /home/ilhamy/Programming/3DGameEngine/Src/Render/Texture.h \
+  /home/ilhamy/Programming/3DGameEngine/Src/Render/stb_image.h \
+  /home/ilhamy/Programming/3DGameEngine/Src/Utility/Utility.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/aabb2d.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine-mat.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine-post.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine-pre.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine2d-post.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine2d.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/bezier.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/box.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/cam.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/cglm.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/common.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat4.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/plane.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec3.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec4.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/ortho_rh_no.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/persp.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/persp_rh_no.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/project_no.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/view_rh.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/view_rh_no.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/color.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/common.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/curve.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/ease.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/euler.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/frustum.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/common.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/handed/euler_to_quat_rh.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/io.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/ivec2.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/ivec3.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/ivec4.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat2.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat2x3.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat2x4.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat3.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat3x2.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat3x4.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat4.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat4x2.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat4x3.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/noise.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/plane.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/project.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/quat.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/ray.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/intrin.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/common.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/intrin.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/sse2/affine.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/sse2/mat2.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/sse2/mat3.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/sse2/mat4.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/sse2/quat.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/x86.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/sphere.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/types.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/util.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec2-ext.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec2.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec3-ext.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec3.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec4-ext.h \
+  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec4.h \
   /home/ilhamy/Programming/3DGameEngine/Vendor/glfw/include/GLFW/glfw3.h \
   /usr/include/alloca.h \
+  /usr/include/assert.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/iscanonical.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/mathcalls.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
   /usr/include/bits/select.h \
@@ -369,11 +867,13 @@ CMakeFiles/GameEngine.dir/Src/main.c.o: /home/ilhamy/Programming/3DGameEngine/Sr
   /usr/include/bits/types/__FILE.h \
   /usr/include/bits/types/__fpos64_t.h \
   /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__locale_t.h \
   /usr/include/bits/types/__mbstate_t.h \
   /usr/include/bits/types/__sigset_t.h \
   /usr/include/bits/types/clock_t.h \
   /usr/include/bits/types/clockid_t.h \
   /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/locale_t.h \
   /usr/include/bits/types/sigset_t.h \
   /usr/include/bits/types/struct_FILE.h \
   /usr/include/bits/types/struct_timespec.h \
@@ -391,17 +891,26 @@ CMakeFiles/GameEngine.dir/Src/main.c.o: /home/ilhamy/Programming/3DGameEngine/Sr
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/math.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
   /usr/include/stdio.h \
   /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/types.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/float.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mm_malloc.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdalign.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xmmintrin.h
 
 GameEngine: /usr/lib/Scrt1.o \
   /usr/lib/crti.o \
@@ -422,9 +931,15 @@ GameEngine: /usr/lib/Scrt1.o \
   /usr/lib/librt.a \
   CMakeFiles/GameEngine.dir/Src/Core/Engine.c.o \
   CMakeFiles/GameEngine.dir/Src/Core/Window.c.o \
+  CMakeFiles/GameEngine.dir/Src/Render/Entity.c.o \
+  CMakeFiles/GameEngine.dir/Src/Render/Material.c.o \
   CMakeFiles/GameEngine.dir/Src/Render/Mesh.c.o \
+  CMakeFiles/GameEngine.dir/Src/Render/Model.c.o \
   CMakeFiles/GameEngine.dir/Src/Render/Renderer.c.o \
+  CMakeFiles/GameEngine.dir/Src/Render/Scene.c.o \
   CMakeFiles/GameEngine.dir/Src/Render/Shader.c.o \
+  CMakeFiles/GameEngine.dir/Src/Render/Texture.c.o \
+  CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.o \
   CMakeFiles/GameEngine.dir/Src/Utility/Utility.c.o \
   CMakeFiles/GameEngine.dir/Src/glad.c.o \
   CMakeFiles/GameEngine.dir/Src/main.c.o \
@@ -432,199 +947,127 @@ GameEngine: /usr/lib/Scrt1.o \
   Vendor/glfw/src/libglfw3.a
 
 
-Vendor/cglm/libcglm.so.0.9.6:
+Vendor/glfw/src/libglfw3.a:
 
 CMakeFiles/GameEngine.dir/Src/glad.c.o:
 
+CMakeFiles/GameEngine.dir/Src/Render/Shader.c.o:
+
+CMakeFiles/GameEngine.dir/Src/Render/Scene.c.o:
+
+CMakeFiles/GameEngine.dir/Src/Render/Mesh.c.o:
+
+CMakeFiles/GameEngine.dir/Src/Render/Material.c.o:
+
+CMakeFiles/GameEngine.dir/Src/Render/Entity.c.o:
+
+CMakeFiles/GameEngine.dir/Src/Core/Window.c.o:
+
+CMakeFiles/GameEngine.dir/Src/Core/Engine.c.o:
+
 /usr/lib/librt.a:
 
-/usr/lib/libmvec.so.1:
+/usr/lib/libm.so.6:
 
-/usr/lib/ld-linux-x86-64.so.2:
+/usr/lib/libc_nonshared.a:
+
+/usr/lib/libc.so.6:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o:
-
-/usr/lib/libm.so:
-
-CMakeFiles/GameEngine.dir/Src/Render/Renderer.c.o:
-
-/usr/lib/libgcc_s.so.1:
-
-/usr/lib/libgcc_s.so:
 
 /usr/lib/libc.so:
 
 /usr/lib/crtn.o:
 
-/usr/lib/crti.o:
-
-/usr/lib/Scrt1.o:
-
-/home/ilhamy/Programming/3DGameEngine/Src/main.c:
-
 /usr/include/dlfcn.h:
 
 /usr/include/bits/dlfcn.h:
 
-/usr/lib/libc.so.6:
+/home/ilhamy/Programming/3DGameEngine/Src/Utility/Utility.c:
 
-/home/ilhamy/Programming/3DGameEngine/Src/glad.c:
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h:
 
-/usr/include/strings.h:
+/usr/include/limits.h:
 
-/usr/lib/libdl.a:
+/usr/include/bits/posix2_lim.h:
 
-/usr/include/bits/types/locale_t.h:
+/home/ilhamy/Programming/3DGameEngine/Src/Render/stb_image.c:
 
-/usr/include/bits/types/__locale_t.h:
+/home/ilhamy/Programming/3DGameEngine/Src/Render/Texture.c:
 
-/home/ilhamy/Programming/3DGameEngine/Src/Render/Renderer.c:
-
-/home/ilhamy/Programming/3DGameEngine/Src/Render/Mesh.c:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h:
-
-CMakeFiles/GameEngine.dir/Src/Core/Window.c.o:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h:
-
-/home/ilhamy/Programming/3DGameEngine/Src/Render/Shader.h:
+/usr/lib/libmvec.so.1:
 
 /home/ilhamy/Programming/3DGameEngine/Src/Render/Shader.c:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h:
+/home/ilhamy/Programming/3DGameEngine/Src/Render/Scene.h:
 
-/usr/include/sys/types.h:
+/usr/lib/libgcc_s.so:
 
-/usr/lib/libm.so.6:
+/home/ilhamy/Programming/3DGameEngine/Src/Render/Renderer.c:
 
-/usr/include/sys/select.h:
+/home/ilhamy/Programming/3DGameEngine/Src/Render/Model.c:
 
-/usr/include/sys/cdefs.h:
+/home/ilhamy/Programming/3DGameEngine/Src/Render/Mesh.c:
 
-/usr/lib/libc_nonshared.a:
+/home/ilhamy/Programming/3DGameEngine/Src/Render/Material.h:
 
-/usr/include/bits/types.h:
+/home/ilhamy/Programming/3DGameEngine/Src/Render/Material.c:
 
-/usr/include/string.h:
+/home/ilhamy/Programming/3DGameEngine/Src/Render/Entity.c:
 
-/usr/include/bits/time64.h:
-
-/usr/include/bits/byteswap.h:
-
-/usr/include/bits/thread-shared-types.h:
-
-/home/ilhamy/Programming/3DGameEngine/Src/Core/Engine.c:
-
-/usr/include/bits/wchar.h:
-
-Vendor/glfw/src/libglfw3.a:
-
-/usr/include/bits/stdint-least.h:
-
-/usr/include/alloca.h:
-
-/usr/include/bits/stdint-intn.h:
-
-/usr/include/bits/struct_mutex.h:
-
-/usr/include/bits/select.h:
-
-/usr/include/bits/types/__fpos64_t.h:
-
-/usr/include/features-time64.h:
-
-/usr/include/stdc-predef.h:
-
-/usr/include/bits/pthreadtypes-arch.h:
-
-/usr/include/bits/long-double.h:
-
-/usr/include/bits/libc-header-start.h:
-
-CMakeFiles/GameEngine.dir/Src/Render/Shader.c.o:
-
-/home/ilhamy/Programming/3DGameEngine/Src/Core/Engine.h:
-
-/home/ilhamy/Programming/3DGameEngine/Include/KHR/khrplatform.h:
-
-CMakeFiles/GameEngine.dir/Src/Utility/Utility.c.o:
-
-/usr/include/gnu/stubs-64.h:
-
-/home/ilhamy/Programming/3DGameEngine/Vendor/glfw/include/GLFW/glfw3.h:
-
-/usr/include/bits/types/struct_timespec.h:
-
-/usr/include/bits/pthreadtypes.h:
-
-/usr/include/bits/timesize.h:
-
-/usr/include/bits/endian.h:
-
-/home/ilhamy/Programming/3DGameEngine/Src/Core/Window.h:
-
-/usr/include/bits/types/__sigset_t.h:
+/usr/include/bits/posix1_lim.h:
 
 /home/ilhamy/Programming/3DGameEngine/Src/Core/Window.c:
 
-/usr/include/bits/waitflags.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h:
 
-/home/ilhamy/Programming/3DGameEngine/Src/Utility/Utility.c:
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h:
 
-/usr/include/bits/endianness.h:
+CMakeFiles/GameEngine.dir/Src/Render/Model.c.o:
 
-CMakeFiles/GameEngine.dir/Src/main.c.o:
+/usr/lib/libm.so:
 
-/usr/include/bits/types/sigset_t.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mmintrin.h:
 
-/usr/include/bits/floatn-common.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/emmintrin.h:
 
-CMakeFiles/GameEngine.dir/Src/Render/Mesh.c.o:
+CMakeFiles/GameEngine.dir/Src/Utility/Utility.c.o:
 
-/usr/include/bits/floatn.h:
+/usr/include/sys/types.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o:
+/usr/include/sys/select.h:
 
-/usr/include/bits/types/FILE.h:
+/home/ilhamy/Programming/3DGameEngine/Src/Render/Entity.h:
 
-/usr/include/bits/stdlib-float.h:
+/usr/include/sys/cdefs.h:
 
-/usr/include/bits/types/__FILE.h:
-
-/usr/include/bits/types/__fpos_t.h:
-
-/usr/include/bits/wordsize.h:
-
-/usr/include/bits/types/__mbstate_t.h:
-
-/usr/include/bits/types/clock_t.h:
-
-/usr/include/bits/atomic_wide_counter.h:
-
-/usr/include/bits/types/clockid_t.h:
-
-/usr/include/bits/uintn-identity.h:
-
-/usr/include/bits/typesizes.h:
-
-/usr/include/bits/types/struct_FILE.h:
-
-/home/ilhamy/Programming/3DGameEngine/Src/Utility/Utility.h:
-
-/usr/include/bits/stdio_lim.h:
-
-/usr/include/bits/types/struct_timeval.h:
-
-/usr/include/bits/struct_rwlock.h:
-
-/usr/include/bits/types/time_t.h:
+/usr/include/strings.h:
 
 /usr/include/stdlib.h:
 
-CMakeFiles/GameEngine.dir/Src/Core/Engine.c.o:
+/usr/include/stdio.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/stdint.h:
+
+/usr/include/math.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/features-time64.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/project.h:
+
+CMakeFiles/GameEngine.dir/Src/Render/Texture.c.o:
+
+/usr/include/stdc-predef.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat4x2.h:
+
+Vendor/cglm/libcglm.so.0.9.6:
 
 /usr/include/bits/stdint-uintn.h:
 
@@ -632,18 +1075,298 @@ CMakeFiles/GameEngine.dir/Src/Core/Engine.c.o:
 
 /usr/include/endian.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h:
+/usr/lib/libgcc_s.so.1:
 
-/usr/include/bits/waitstatus.h:
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat3.h:
 
-/home/ilhamy/Programming/3DGameEngine/Include/glad/glad.h:
+/usr/include/bits/types/struct_timespec.h:
 
-/usr/include/features.h:
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/ivec3.h:
 
-/usr/include/gnu/stubs.h:
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/io.h:
 
-/usr/include/stdint.h:
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/sse2/mat2.h:
+
+/usr/lib/Scrt1.o:
 
 /usr/include/bits/types/timer_t.h:
 
-/usr/include/stdio.h:
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/handed/euler_to_quat_rh.h:
+
+/usr/include/bits/pthread_stack_min-dynamic.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/curve.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xmmintrin.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat2x3.h:
+
+/usr/include/bits/atomic_wide_counter.h:
+
+/usr/include/bits/types/clockid_t.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec4.h:
+
+/usr/include/bits/long-double.h:
+
+/usr/include/bits/mathcalls-narrow.h:
+
+/home/ilhamy/Programming/3DGameEngine/Src/Render/Mesh.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h:
+
+/home/ilhamy/Programming/3DGameEngine/Src/Utility/Utility.h:
+
+/usr/include/bits/types/struct_timeval.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h:
+
+/home/ilhamy/Programming/3DGameEngine/Src/Render/stb_image.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/plane.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/intrin.h:
+
+/home/ilhamy/Programming/3DGameEngine/Src/Render/Texture.h:
+
+/usr/include/bits/types.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat4x3.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/ivec2.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine-mat.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat4.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/aabb2d.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/sse2/mat4.h:
+
+CMakeFiles/GameEngine.dir/Src/main.c.o:
+
+/usr/include/bits/pthread_stack_min.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/cam.h:
+
+/usr/include/bits/types/__sigset_t.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine2d-post.h:
+
+/usr/include/bits/endian.h:
+
+/home/ilhamy/Programming/3DGameEngine/Src/Core/Engine.h:
+
+/usr/include/bits/local_lim.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat3x4.h:
+
+/usr/include/bits/types/__FILE.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/common.h:
+
+/home/ilhamy/Programming/3DGameEngine/Include/glad/glad.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine-post.h:
+
+/home/ilhamy/Programming/3DGameEngine/Src/Core/Window.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/box.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine-pre.h:
+
+/usr/include/bits/floatn.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/euler.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdalign.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/noise.h:
+
+/usr/include/bits/types/struct_FILE.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/sse2/mat3.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine2d.h:
+
+CMakeFiles/GameEngine.dir/Src/Render/Renderer.c.o:
+
+/usr/lib/libdl.a:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/bezier.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec3-ext.h:
+
+/usr/include/alloca.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/cglm.h:
+
+CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.o:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/ivec4.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/view_rh.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/frustum.h:
+
+/usr/include/bits/stdint-intn.h:
+
+/home/ilhamy/Programming/3DGameEngine/Include/KHR/khrplatform.h:
+
+/home/ilhamy/Programming/3DGameEngine/Src/main.c:
+
+/usr/include/bits/waitflags.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/color.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/ortho_rh_no.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/view_rh_no.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec3.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/float.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/sse2/affine.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/persp.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/util.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/project_no.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/ray.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/ease.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/types.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/persp_rh_no.h:
+
+/usr/include/bits/types/__locale_t.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/sphere.h:
+
+/home/ilhamy/Programming/3DGameEngine/Src/glad.c:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/quat.h:
+
+/usr/include/bits/fp-fast.h:
+
+/home/ilhamy/Programming/3DGameEngine/Src/Core/Engine.c:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec2-ext.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat2x4.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec2.h:
+
+/usr/include/bits/struct_mutex.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec4-ext.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o:
+
+/home/ilhamy/Programming/3DGameEngine/Src/Render/Scene.c:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/x86.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/glfw/include/GLFW/glfw3.h:
+
+/usr/lib/ld-linux-x86-64.so.2:
+
+/usr/include/assert.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/features.h:
+
+/usr/include/bits/endianness.h:
+
+/usr/include/bits/floatn-common.h:
+
+/home/ilhamy/Programming/3DGameEngine/Src/Render/Shader.h:
+
+/usr/include/bits/fp-logb.h:
+
+/usr/include/bits/iscanonical.h:
+
+/usr/include/bits/libc-header-start.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/sse2/quat.h:
+
+/usr/include/bits/libm-simd-decl-stubs.h:
+
+/usr/include/bits/math-vector.h:
+
+/usr/include/bits/types/clock_t.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/types/__fpos_t.h:
+
+/usr/include/string.h:
+
+/usr/include/bits/mathcalls-helper-functions.h:
+
+/home/ilhamy/Programming/3DGameEngine/Src/Render/Model.h:
+
+/usr/include/bits/struct_rwlock.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/mm_malloc.h:
+
+/usr/include/bits/types/time_t.h:
+
+/usr/include/bits/mathcalls-macros.h:
+
+/usr/include/gnu/stubs.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat3x2.h:
+
+/usr/include/bits/pthreadtypes-arch.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/stdint-least.h:
+
+/usr/include/bits/thread-shared-types.h:
+
+/usr/include/bits/stdlib-float.h:
+
+/usr/include/bits/time64.h:
+
+/usr/include/bits/flt-eval-method.h:
+
+/usr/include/bits/types/FILE.h:
+
+/usr/include/bits/types/__fpos64_t.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/types/__mbstate_t.h:
+
+/usr/include/bits/types/locale_t.h:
+
+/usr/include/bits/types/sigset_t.h:
+
+/usr/lib/crti.o:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat2.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/bits/uintn-identity.h:
+
+/usr/include/bits/timesize.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/bits/wordsize.h:
