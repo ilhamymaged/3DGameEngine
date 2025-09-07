@@ -44,9 +44,6 @@ CMakeFiles/GameEngine.dir/Src/main.c.o: \
  /usr/include/bits/stdlib-float.h \
  /home/ilhamy/Programming/3DGameEngine/Src/Render/Shader.h \
  /home/ilhamy/Programming/3DGameEngine/Src/Utility/Utility.h \
- /usr/include/string.h /usr/include/bits/types/locale_t.h \
- /usr/include/bits/types/__locale_t.h /usr/include/strings.h \
- /home/ilhamy/Programming/3DGameEngine/Src/Render/Mesh.h \
  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/cglm.h \
  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/common.h \
  /usr/include/math.h /usr/include/bits/math-vector.h \
@@ -129,5 +126,8 @@ CMakeFiles/GameEngine.dir/Src/main.c.o: \
  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/ray.h \
  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine2d.h \
  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine2d-post.h \
+ /usr/include/string.h /usr/include/bits/types/locale_t.h \
+ /usr/include/bits/types/__locale_t.h /usr/include/strings.h \
+ /home/ilhamy/Programming/3DGameEngine/Src/Render/Mesh.h \
  /home/ilhamy/Programming/3DGameEngine/Src/Render/Texture.h \
  /home/ilhamy/Programming/3DGameEngine/Src/Render/stb_image.h

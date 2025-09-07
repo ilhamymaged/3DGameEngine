@@ -1,5 +1,15 @@
 #include <Render/Shader.h>
 
+void shader_set_mat4(mat4 mat, const char* name, Shader* shader) 
+{
+    uint32_t uniform_loc = glGetUniformLocation(shader->id, name);
+    if(uniform_loc == -1) {
+        printf("THERE'S NOTHING CALLED: %s\n", name);
+        return;
+    }
+    glUniformMatrix4fv(uniform_loc, 1, GL_FALSE, &mat[0][0]);
+}
+
 bool create_shader(const char* name, Shader** out_shader)
 {
 
