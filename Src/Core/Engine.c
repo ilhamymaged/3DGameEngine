@@ -2,105 +2,18 @@
 
 void run_engine(Engine* engine)
 {
-    glEnable(GL_DEPTH_TEST);
-
-    float vertices[] = {
-        // Positions         // TexCoords // Normals
-        // Front face
-        -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,   0.0f,  0.0f,  1.0f,
-        0.5f, -0.5f,  0.5f,  1.0f, 0.0f,   0.0f,  0.0f,  1.0f,
-        0.5f,  0.5f,  0.5f,  1.0f, 1.0f,   0.0f,  0.0f,  1.0f,
-        -0.5f,  0.5f,  0.5f,  0.0f, 1.0f,   0.0f,  0.0f,  1.0f,
-
-        // Back face
-        -0.5f, -0.5f, -0.5f,  1.0f, 0.0f,   0.0f,  0.0f, -1.0f,
-        0.5f, -0.5f, -0.5f,  0.0f, 0.0f,   0.0f,  0.0f, -1.0f,
-        0.5f,  0.5f, -0.5f,  0.0f, 1.0f,   0.0f,  0.0f, -1.0f,
-        -0.5f,  0.5f, -0.5f,  1.0f, 1.0f,   0.0f,  0.0f, -1.0f,
-
-        // Left face
-        -0.5f, -0.5f, -0.5f,  0.0f, 0.0f,  -1.0f,  0.0f,  0.0f,
-        -0.5f, -0.5f,  0.5f,  1.0f, 0.0f,  -1.0f,  0.0f,  0.0f,
-        -0.5f,  0.5f,  0.5f,  1.0f, 1.0f,  -1.0f,  0.0f,  0.0f,
-        -0.5f,  0.5f, -0.5f,  0.0f, 1.0f,  -1.0f,  0.0f,  0.0f,
-
-        // Right face
-        0.5f, -0.5f, -0.5f,  1.0f, 0.0f,   1.0f,  0.0f,  0.0f,
-        0.5f, -0.5f,  0.5f,  0.0f, 0.0f,   1.0f,  0.0f,  0.0f,
-        0.5f,  0.5f,  0.5f,  0.0f, 1.0f,   1.0f,  0.0f,  0.0f,
-        0.5f,  0.5f, -0.5f,  1.0f, 1.0f,   1.0f,  0.0f,  0.0f,
-
-        // Top face
-        -0.5f,  0.5f, -0.5f,  0.0f, 1.0f,   0.0f,  1.0f,  0.0f,
-        -0.5f,  0.5f,  0.5f,  0.0f, 0.0f,   0.0f,  1.0f,  0.0f,
-        0.5f,  0.5f,  0.5f,  1.0f, 0.0f,   0.0f,  1.0f,  0.0f,
-        0.5f,  0.5f, -0.5f,  1.0f, 1.0f,   0.0f,  1.0f,  0.0f,
-
-        // Bottom face
-        -0.5f, -0.5f, -0.5f,  1.0f, 1.0f,   0.0f, -1.0f,  0.0f,
-        -0.5f, -0.5f,  0.5f,  1.0f, 0.0f,   0.0f, -1.0f,  0.0f,
-        0.5f, -0.5f,  0.5f,  0.0f, 0.0f,   0.0f, -1.0f,  0.0f,
-        0.5f, -0.5f, -0.5f,  0.0f, 1.0f,   0.0f, -1.0f,  0.0f,
-    };
-
-
-#define NUM_FLOATS_PER_VERTEX 8
-#define NUM_VERTICES (sizeof(vertices) / sizeof(float) / NUM_FLOATS_PER_VERTEX)
-
-    Vertex vertexArray[NUM_VERTICES];
-
-    for (int i = 0; i < NUM_VERTICES; ++i) {
-        int base = i * NUM_FLOATS_PER_VERTEX;
-
-        glm_vec3_copy(&vertices[base],        vertexArray[i].pos);
-        glm_vec2_copy(&vertices[base + 3],    vertexArray[i].texCoords);
-        glm_vec3_copy(&vertices[base + 5],    vertexArray[i].normal);
-    }
-
-
-    unsigned int indices[] = {
-        // Front face
-        0, 1, 2,
-        2, 3, 0,
-
-        // Back face
-        4, 5, 6,
-        6, 7, 4,
-
-        // Left face
-        8, 9,10,
-        10,11, 8,
-
-        // Right face
-        12,13,14,
-        14,15,12,
-
-        // Top face
-        16,17,18,
-        18,19,16,
-
-        // Bottom face
-        20,21,22,
-        22,23,20
-    };
-    
     Shader* shader = NULL;
     if(!create_shader("basic", &shader)) {
         printf("FAILED TO CREATE A SHADER\n");
     }
 
-    Mesh* mesh_cube = NULL;
-    if(!create_mesh(&mesh_cube, vertexArray, indices,  24, 36)) {
-        printf("FAILED TO CREATE A MESH\n");
-    }
-    
     Texture* texture = NULL;
     if(!create_texture(&texture, "wall.jpg")) {
         printf("FAILED TO CREATE A TEXTURE\n");
     }
 
     Camera camera = {
-        .pos = {0.0f, 0.0f, 3.0f},
+        .pos = {0.0f, 0.0f, -3.0f},
         .front = {0.0f, 0.0f, -1.0f},
         .up = {0.0f, 1.0f, 0.0f}
     };
@@ -151,14 +64,12 @@ void run_engine(Engine* engine)
         shader_set_mat4(proj, "proj", shader);
 
         use_texture(texture);
-        draw_mesh(mesh_cube);
 
         glfwSwapBuffers(engine->window->frame);
         glfwPollEvents();
     }
 
     destroy_shader(shader);
-    destroy_mesh(mesh_cube);
     destroy_texture(texture);
 }
 
@@ -214,4 +125,3 @@ bool init_engine()
     glfwSwapInterval(0);
     return true;
 }
-

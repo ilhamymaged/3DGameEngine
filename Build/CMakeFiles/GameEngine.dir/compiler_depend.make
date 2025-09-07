@@ -6,7 +6,6 @@ CMakeFiles/GameEngine.dir/Src/Core/Engine.c.o: /home/ilhamy/Programming/3DGameEn
   /home/ilhamy/Programming/3DGameEngine/Include/glad/glad.h \
   /home/ilhamy/Programming/3DGameEngine/Src/Core/Engine.h \
   /home/ilhamy/Programming/3DGameEngine/Src/Core/Window.h \
-  /home/ilhamy/Programming/3DGameEngine/Src/Render/Mesh.h \
   /home/ilhamy/Programming/3DGameEngine/Src/Render/Shader.h \
   /home/ilhamy/Programming/3DGameEngine/Src/Render/Texture.h \
   /home/ilhamy/Programming/3DGameEngine/Src/Render/stb_image.h \
@@ -841,7 +840,6 @@ CMakeFiles/GameEngine.dir/Src/main.c.o: /home/ilhamy/Programming/3DGameEngine/Sr
   /home/ilhamy/Programming/3DGameEngine/Include/glad/glad.h \
   /home/ilhamy/Programming/3DGameEngine/Src/Core/Engine.h \
   /home/ilhamy/Programming/3DGameEngine/Src/Core/Window.h \
-  /home/ilhamy/Programming/3DGameEngine/Src/Render/Mesh.h \
   /home/ilhamy/Programming/3DGameEngine/Src/Render/Shader.h \
   /home/ilhamy/Programming/3DGameEngine/Src/Render/Texture.h \
   /home/ilhamy/Programming/3DGameEngine/Src/Render/stb_image.h \
@@ -1141,8 +1139,6 @@ CMakeFiles/GameEngine.dir/Src/Utility/Utility.c.o:
 
 /usr/include/gnu/stubs-64.h:
 
-/usr/include/features-time64.h:
-
 /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/project.h:
 
 CMakeFiles/GameEngine.dir/Src/Render/Texture.c.o:
@@ -1171,6 +1167,10 @@ Vendor/cglm/libcglm.so.0.9.6:
 
 /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/sse2/mat2.h:
 
+/home/ilhamy/Programming/3DGameEngine/Src/Render/Mesh.h:
+
+/usr/include/bits/mathcalls-narrow.h:
+
 /usr/lib/Scrt1.o:
 
 /usr/include/bits/types/timer_t.h:
@@ -1188,40 +1188,6 @@ Vendor/cglm/libcglm.so.0.9.6:
 /usr/include/bits/atomic_wide_counter.h:
 
 /usr/include/bits/types/clockid_t.h:
-
-/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec4.h:
-
-/usr/include/bits/long-double.h:
-
-/usr/include/bits/mathcalls-narrow.h:
-
-/home/ilhamy/Programming/3DGameEngine/Src/Render/Mesh.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h:
-
-/home/ilhamy/Programming/3DGameEngine/Src/Utility/Utility.h:
-
-/usr/include/bits/types/struct_timeval.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h:
-
-/home/ilhamy/Programming/3DGameEngine/Src/Render/stb_image.h:
-
-/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/plane.h:
-
-/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/intrin.h:
-
-/home/ilhamy/Programming/3DGameEngine/Src/Render/Texture.h:
-
-/usr/include/bits/types.h:
-
-/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat4x3.h:
-
-/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/ivec2.h:
-
-/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine-mat.h:
-
-/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat4.h:
 
 /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/aabb2d.h:
 
@@ -1241,6 +1207,34 @@ CMakeFiles/GameEngine.dir/Src/main.c.o:
 
 /usr/include/bits/endian.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h:
+
+/home/ilhamy/Programming/3DGameEngine/Src/Utility/Utility.h:
+
+/usr/include/bits/types/struct_timeval.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h:
+
+/home/ilhamy/Programming/3DGameEngine/Src/Render/stb_image.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/plane.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/intrin.h:
+
+/home/ilhamy/Programming/3DGameEngine/Src/Render/Texture.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/floatn.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat4x3.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/ivec2.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine-mat.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/mat4.h:
+
 /home/ilhamy/Programming/3DGameEngine/Src/Core/Engine.h:
 
 /usr/include/bits/local_lim.h:
@@ -1257,11 +1251,9 @@ CMakeFiles/GameEngine.dir/Src/main.c.o:
 
 /home/ilhamy/Programming/3DGameEngine/Src/Core/Window.h:
 
-/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/box.h:
-
 /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine-pre.h:
 
-/usr/include/bits/floatn.h:
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/box.h:
 
 /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/euler.h:
 
@@ -1272,10 +1264,6 @@ CMakeFiles/GameEngine.dir/Src/main.c.o:
 /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/noise.h:
 
 /usr/include/bits/types/struct_FILE.h:
-
-/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/sse2/mat3.h:
-
-/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine2d.h:
 
 CMakeFiles/GameEngine.dir/Src/Render/Renderer.c.o:
 
@@ -1309,6 +1297,10 @@ CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.o:
 
 /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/ortho_rh_no.h:
 
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec4.h:
+
+/usr/include/bits/long-double.h:
+
 /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/view_rh_no.h:
 
 /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/vec3.h:
@@ -1321,15 +1313,19 @@ CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.o:
 
 /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/util.h:
 
-/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/project_no.h:
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/types.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/persp_rh_no.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine2d.h:
+
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/simd/sse2/mat3.h:
 
 /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/ray.h:
 
 /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/ease.h:
 
-/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/types.h:
-
-/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/persp_rh_no.h:
+/home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/clipspace/project_no.h:
 
 /usr/include/bits/types/__locale_t.h:
 
@@ -1454,3 +1450,5 @@ CMakeFiles/GameEngine.dir/Src/Render/stb_image.c.o:
 /usr/include/bits/wchar.h:
 
 /usr/include/bits/wordsize.h:
+
+/usr/include/features-time64.h:

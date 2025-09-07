@@ -128,6 +128,5 @@ CMakeFiles/GameEngine.dir/Src/Core/Engine.c.o: \
  /home/ilhamy/Programming/3DGameEngine/Vendor/cglm/include/cglm/affine2d-post.h \
  /usr/include/string.h /usr/include/bits/types/locale_t.h \
  /usr/include/bits/types/__locale_t.h /usr/include/strings.h \
- /home/ilhamy/Programming/3DGameEngine/Src/Render/Mesh.h \
  /home/ilhamy/Programming/3DGameEngine/Src/Render/Texture.h \
  /home/ilhamy/Programming/3DGameEngine/Src/Render/stb_image.h
